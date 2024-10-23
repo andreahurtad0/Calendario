@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calendario</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="calendario">
+        <div id="encabezado">
+            <button class="arrow" id="anterior" onclick="mesAnterior()">&lt;</button>
+            <h1 id="mesesa"></h1>
+            <button class="arrow" id="siguiente" onclick="mesSiguiente()">&gt;</button>
+        </div>
+        <div id="dias-semana">
+            <div class="dia-semana">Lunes</div>
+            <div class="dia-semana">Martes</div>
+            <div class="dia-semana">Miércoles</div>
+            <div class="dia-semana">Jueves</div>
+            <div class="dia-semana">Viernes</div>
+            <div class="dia-semana">Sábado</div>
+            <div class="dia-semana">Domingo</div>
+        </div>
+        <div id="dias"></div>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
